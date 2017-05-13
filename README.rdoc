@@ -1,3 +1,7 @@
 == README
 
 This repository has been created for NextAcademy students. Fork and clone to complete this challenge.
+
+# Self notes
+
+Using ruby 2.3.3
