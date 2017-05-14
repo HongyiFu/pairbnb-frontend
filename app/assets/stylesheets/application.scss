@@ -49,6 +49,14 @@ body {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .hero-header {
+    .main-text {
+      font-size: 30px;
+    }
+  }
+}
+
 .container {
   margin: 20px;
   padding: 20px;
@@ -69,6 +77,12 @@ body {
 .para-two {
   width: 50%;
   float: left;
+}
+
+@media screen and (max-width: 400px) {
+  .para-one, .para-two {
+    width:100%;
+  }
 }
  
 /*----- Menu -----*/
@@ -133,6 +147,12 @@ body {
 .menu a:hover, .menu .current-item a {
   text-decoration:none;
   color:#303030;
+}
+
+@media screen and (max-width:480px) {
+  .menu .current-item, .menu li:last-child {
+    display: none;
+  }
 }
 
 #footer {
